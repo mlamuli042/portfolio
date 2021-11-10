@@ -4,7 +4,7 @@
   "description": "My portfolio",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mlamuli042/portfolio/issues"
   },
-  "homepage": "https://github.com/mlamuli042/portfolio#readme"
+  "homepage": "https://github.com/mlamuli042/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
+  }
 }
