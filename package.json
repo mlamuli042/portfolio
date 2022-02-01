@@ -4,7 +4,8 @@
   "description": "My portfolio",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,15 @@
   },
   "homepage": "https://github.com/mlamuli042/portfolio#readme",
   "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.4"
+    "express-handlebars": "^5.3.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
   }
 }

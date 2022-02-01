@@ -1,0 +1,118 @@
+$theme-colors: (
+  "primary": #3292a6,
+  "success": #7ed56f,
+  "warning": #d7bf24,
+  "danger": #dd2476,
+);
+
+$dark-overlay: rgba(0, 0, 0, 0.7);
+$color-black: #00000026;
+
+body {
+  font-family: "Ubuntu", sans-serif !important;
+  // border-radius: 0 !important;
+}
+
+.card {
+  border-radius: 0 !important;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+#main-header {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-media {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .social-media a {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .social-media a i {
+    font-size: 22px;
+    background: #fff;
+    color: #000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 50px;
+  }
+
+  .social-media a i:hover {
+    background-color: #3292a6;
+    color: #fff;
+  }
+
+  .port-item {
+    width: 30%;
+    .fa {
+      font-size: 2em;
+    }
+  }
+
+  .port-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .bg-header {
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+  }
+}
+
+.main-footer {
+  background: $dark-overlay;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
+
+.color-text {
+  color: #d7bf24;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.technical-skill {
+  p {
+    font-size: 18px;
+  }
+  .fa {
+    padding: 5px;
+  }
+}
+
+#contact {
+  .fa {
+    font-size: 30px;
+  }
+
+  .phone,
+  .email,
+  .linkedin {
+    font-size: 18px;
+    margin-top: 3px;
+    color: #000;
+  }
+}
